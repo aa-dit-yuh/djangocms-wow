@@ -3,7 +3,7 @@ djangocms-wow
 
 .. image:: https://badge.fury.io/py/djangocms-wow.svg
     :target: http://badge.fury.io/py/djangocms-wow
-.. image:: https://travis-ci.org/narayanaditya95/djangocms-wow.svg?branch=0.0.2
+.. image:: https://travis-ci.org/narayanaditya95/djangocms-wow.svg?branch=master
     :target: https://travis-ci.org/narayanaditya95/djangocms-wow
 .. image:: https://coveralls.io/repos/narayanaditya95/djangocms-wow/badge.svg?branch=master
     :target: https://coveralls.io/r/narayanaditya95/djangocms-wow?branch=master
