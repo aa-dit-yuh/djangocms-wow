@@ -1,0 +1,18 @@
+{% load cms_tags static %}
+{% load sekizai_tags %}
+
+{% addtoblock "css" %}
+<link href="{% static 'djangocms_wow/css/animate.css' %}" rel="stylesheet"></link>
+{% endaddtoblock %}
+{% addtoblock "js" %}
+<script src="{% static 'djangocms_wow/js/wow.js' %}"></script>
+<script>
+  new WOW().init();
+</script>
+{% endaddtoblock %}
+
+<div class="wow {{ instance.animation_class }}"{% if instance.duration %} data-wow-duration="{{ instance.duration }}s"{% endif %}{% if instance.delay %} data-wow-delay="{{ instance.delay }}s"{% endif %}{% if instance.offset %} data-wow-offset="{{ instance.offset }}"{% endif %}{% if instance.iteration %} data-wow-iteration="{{ instance.iteration }}"{% endif %}>
+    {% for plugin in instance.child_plugin_instances %}
+        {% render_plugin plugin %}
+    {% endfor %}
+</div>

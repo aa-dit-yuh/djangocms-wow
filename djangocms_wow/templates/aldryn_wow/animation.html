@@ -1,0 +1,11 @@
+{% load cms_tags static %}
+{% load sekizai_tags %}
+
+{% addtoblock "css" %}<link href="{% static 'djangocms_wow/css/animate.css' %}" rel="stylesheet" />
+{% endaddtoblock %}
+
+<div class="animated{% if instance.infinite %} infinite{% endif %} {{ instance.animation_class }}">
+    {% for plugin in instance.child_plugin_instances %}
+        {% render_plugin plugin %}
+    {% endfor %}
+</div>

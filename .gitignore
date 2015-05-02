@@ -1,0 +1,15 @@
+*.log
+*.pot
+*.pyc
+.project
+.pydevproject
+.settings
+build
+env*
+dist
+djangocms_text_ckeditor.egg-info
+*.DS_Store
+.idea
+.tox
+.coverage
+*egg-info
