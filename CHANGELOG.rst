@@ -1,11 +1,17 @@
 Changelog
 =========
 
+Version 0.0.3
+-----------------
+* Make parameter fields in WOW animations optional
+
 Version 0.0.2
 -----------------
-* Make fields in WOW animations optional
+* Fixed packaging issues.
+* Added tests to cover all plugins.
+* Add south and django migrations.
+* Drop support for Python 2.6.
 
 Version 0.0.1
 -----------------
-* Fixed packaging issues.
-* Add south and django migrations.
+* Initial Release
