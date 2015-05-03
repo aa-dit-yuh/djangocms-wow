@@ -1,5 +1,6 @@
+=============
 djangocms-wow
-=======================
+=============
 
 .. image:: https://badge.fury.io/py/djangocms-wow.svg
     :target: http://badge.fury.io/py/djangocms-wow
@@ -11,11 +12,9 @@ djangocms-wow
     :target: https://landscape.io/github/narayanaditya95/djangocms-wow/master
     :alt: Code Health
 
-Plugin for django-cms to include awesome animations from `WOW`_.js and `Animate`_.css
+------------
 
-.. WOW: http://mynameismatthieu.com/WOW/
-.. Animate: http://daneden.github.io/animate.css/
-
+Plugin for django-cms to include awesome animations from `WOW <http://mynameismatthieu.com/WOW/>`_.js and `Animate <http://daneden.github.io/animate.css/>`_.css
 
 Installation
 ------------
