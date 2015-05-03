@@ -1,6 +1,11 @@
 Changelog
 ---------
 
+Version 1.0.0
+*************
+* Drop backward compatibilty.
+* Tested and status upgraded to Production/Stable.
+
 Version 0.0.3
 *************
 * Make parameter fields in WOW animations optional.
@@ -14,4 +19,4 @@ Version 0.0.2
 
 Version 0.0.1
 *************
-* Initial Release
+* Initial Release.

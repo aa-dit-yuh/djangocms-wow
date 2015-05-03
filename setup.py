@@ -38,6 +38,7 @@ setup(
     classifiers=CLASSIFIERS,
     long_description=open('README.rst').read() + open('CHANGELOG.rst').read(),
     include_package_data=True,
+    keywords='django cms wow animate',
     zip_safe=False,
     test_suite='test_settings.run',
 )
