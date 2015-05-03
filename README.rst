@@ -22,7 +22,7 @@ Installation
 
 This plugin requires `django CMS` 3.0 or higher to be properly installed.
 
-* In your projects `virtualenv`, run ``pip install djangocms-text-ckeditor``.
+* In your projects `virtualenv`, run ``pip install djangocms-wow``.
 * If using Django 1.6 add ``'djangocms_wow': 'djangocms_wow.south_migrations',``
   to ``SOUTH_MIGRATION_MODULES``  (or define ``SOUTH_MIGRATION_MODULES`` if it does not exists);
 * Run ``manage.py migrate djangocms_wow``.

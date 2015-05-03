@@ -34,10 +34,12 @@ class WOWAnimation(CMSPlugin):
     )
     duration = models.PositiveSmallIntegerField(
         help_text=_('Change the animation duration'),
+        blank=True,
         null=True
     )
     delay = models.PositiveSmallIntegerField(
         help_text=_('Delay before the animation starts'),
+        blank=True,
         null=True,
     )
     offset = models.PositiveSmallIntegerField(
@@ -45,10 +47,12 @@ class WOWAnimation(CMSPlugin):
             'Distance to start the animation '
             '(related to the browser bottom)'
         ),
+        blank=True,
         null=True,
     )
     iteration = models.PositiveSmallIntegerField(
         help_text=_('Number of times the animation is repeated'),
+        blank=True,
         null=True,
     )
 
