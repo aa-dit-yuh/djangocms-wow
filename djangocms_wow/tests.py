@@ -54,7 +54,6 @@ class AnimatePluginTestCase(TestCase, BaseCMSTestCase):
         self.assertEqual(plugin.__str__(), 'Animate shake')
         self.page.delete()
 
-
     def test_animation_infinite(self):
         self.client.login(username=self.su_username, password=self.su_password)
 
@@ -72,7 +71,6 @@ class AnimatePluginTestCase(TestCase, BaseCMSTestCase):
         self.assertContains(response, 'animate')
         self.assertContains(response, 'wobble')
         self.assertContains(response, 'infinite')
-
 
     def test_wow_animation_no_additional_arguments(self):
         self.client.login(username=self.su_username, password=self.su_password)
@@ -92,7 +90,6 @@ class AnimatePluginTestCase(TestCase, BaseCMSTestCase):
         self.assertNotContains(response, 'delay')
         self.assertNotContains(response, 'offset')
         self.assertNotContains(response, 'iteration')
-
 
     def test_wow_animation_all_arguments(self):
         self.client.login(username=self.su_username, password=self.su_password)
