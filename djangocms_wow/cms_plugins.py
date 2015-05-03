@@ -10,7 +10,7 @@ from . import models
 class AnimationPlugin(CMSPluginBase):
     model = models.Animation
     name = _('Animation')
-    render_template = 'aldryn_wow/animation.html'
+    render_template = 'djangocms_wow/animation.html'
     allow_children = True
     cache = True
 
@@ -25,7 +25,7 @@ plugin_pool.register_plugin(AnimationPlugin)
 class WOWAnimationPlugin(CMSPluginBase):
     model = models.WOWAnimation
     name = _("Wow Animation")
-    render_template = 'aldryn_wow/wow_animation.html'
+    render_template = 'djangocms_wow/wow_animation.html'
     allow_children = True
     cache = True
 
