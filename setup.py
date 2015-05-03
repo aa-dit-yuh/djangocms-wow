@@ -36,7 +36,7 @@ setup(
     license='LICENSE.txt',
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,
-    long_description=open('README.rst').read(),
+    long_description=open('README.rst').read() + open('CHANGELOG.rst').read(),
     include_package_data=True,
     zip_safe=False,
     test_suite='test_settings.run',

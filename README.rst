@@ -21,10 +21,10 @@ Installation
 
 This plugin requires `django CMS` 3.0 or higher to be properly installed.
 
-* In your projects `virtualenv`, run ``pip install djangocms-wow``.
+* In your projects `virtualenv`, run ``pip install djangocms-wow``
 * If using Django 1.6 add ``'djangocms_wow': 'djangocms_wow.south_migrations',``
   to ``SOUTH_MIGRATION_MODULES``  (or define ``SOUTH_MIGRATION_MODULES`` if it does not exists);
-* Run ``manage.py migrate djangocms_wow``.
+* Run ``manage.py migrate djangocms_wow``
 
 
 Usage
@@ -33,5 +33,6 @@ Usage
 Default content in Placeholder
 ******************************
 
-If you use Django-CMS >= 3.0, you can use ``Animation`` in "default_plugins"
+If you use Django-CMS >= 3.0, you can use ``Animation`` and ``Wow Animation`` in "default_plugins"
 (see docs about the CMS_PLACEHOLDER_CONF setting in Django CMS 3.0).
+
