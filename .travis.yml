@@ -28,24 +28,3 @@ install:
 script: COMMAND='coverage run' tox -e"$PYVER-$DJANGO-$CMS"
 
 after_success: coveralls
-
-matrix:
-  exclude:
-
-  allow_failures:
-    - python: 2.7
-      env: DJANGO='django18' CMS='cms32'
-    - python: 2.7
-      env: DJANGO='django18' CMS='cms31'
-    - python: 2.7
-      env: DJANGO='django17' CMS='cms31'
-    - python: 2.7
-      env: DJANGO='django16' CMS='cms31'
-    - python: 3.4
-      env: DJANGO='django18' CMS='cms32'
-    - python: 3.4
-      env: DJANGO='django18' CMS='cms31'
-    - python: 3.4
-      env: DJANGO='django17' CMS='cms31'
-    - python: 3.4
-      env: DJANGO='django16' CMS='cms31'
