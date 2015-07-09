@@ -12,6 +12,7 @@ class AnimationPlugin(CMSPluginBase):
     name = _('Animation')
     render_template = 'djangocms_wow/animation.html'
     allow_children = True
+    text_enabled = True
     cache = True
 
     def render(self, context, instance, placeholder):
@@ -27,6 +28,7 @@ class WOWAnimationPlugin(CMSPluginBase):
     name = _("Wow Animation")
     render_template = 'djangocms_wow/wow_animation.html'
     allow_children = True
+    text_enabled = True
     cache = True
 
     def render(self, context, instance, placeholder):
